@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SmartDisk Sentinel Documentation</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        h1, h2 { color: #2D4F2D; }
+        .highlight { background-color: #f0f0f0; padding: 15px; border-radius: 5px; }
+        code { background-color: #f5f5f5; padding: 2px 5px; }
+    </style>
+</head>
+<body>
+    <h1>SmartDisk Sentinel</h1>
+    
+    <h2>Overview</h2>
+    <p>SmartDisk Sentinel is an intelligent storage optimization tool designed to help users manage their disk space efficiently through smart recommendations and batch processing.</p>
+    
+    <h2>Why Use SmartDisk Sentinel?</h2>
+    <ul>
+        <li>Automatically identifies unused and large files</li>
+        <li>Provides safe file management options</li>
+        <li>Batch processing for efficient cleanup</li>
+        <li>Smart recommendations based on file usage patterns</li>
+        <li>User-friendly interface with workstation mode</li>
+    </ul>
+    
+    <h2>Installation</h2>
+    <div class="highlight">
+        <p><strong>Requirements:</strong></p>
+        <ul>
+            <li>Python 3.8 or higher</li>
+            <li>tkinter (usually included with Python)</li>
+            <li>Additional packages (installed automatically):</li>
+            <ul>
+                <li>pillow</li>
+                <li>send2trash</li>
+                <li>psutil</li>
+            </ul>
+        </ul>
+        
+        <p><strong>Installation Steps:</strong></p>
+        <code>
+        1. git clone [repository-url]<br>
+        2. cd SmartDisk-Sentinel<br>
+        3. python requirements.py<br>
+        4. python Storage_Optimizer.py
+        </code>
+    </div>
+    
+    <h2>Usage Example</h2>
+    <p>Consider this scenario: You're a developer with multiple projects, and your development machine is running low on storage. You know there are old project files, downloads, and temporary files that can be removed, but manually finding them would take hours.</p>
+    
+    <p>SmartDisk Sentinel can:</p>
+    <ol>
+        <li>Scan your development drive</li>
+        <li>Identify old project files not accessed in months</li>
+        <li>Find large media files from testing</li>
+        <li>Locate temporary build files</li>
+        <li>Process everything in efficient batches</li>
+    </ol>
+    
+    <h2>Features</h2>
+    <ul>
+        <li>Smart file detection based on access patterns</li>
+        <li>Workstation mode for batch processing</li>
+        <li>Safe file operations (delete/move/copy)</li>
+        <li>Visual recommendation system</li>
+        <li>Progress tracking and statistics</li>
+    </ul>
+</body>
+</html>
