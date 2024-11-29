@@ -1,0 +1,23 @@
+SmartDisk Sentinel/
+│
+├── Storage_Optimizer.py     # Main application file
+├── requirements.py          # Requirements installer
+├── README.txt              # Plain text documentation
+├── README.html             # HTML documentation
+└── Repository_Structure.txt # Project structure overview
+
+Core Components:
+---------------
+Storage_Optimizer.py:
+- Main GUI interface
+- File scanning logic
+- Recommendation engine
+- Workstation mode
+- File operations
+
+Requirements:
+- Python 3.8+
+- tkinter
+- pillow
+- send2trash
+- psutil 
